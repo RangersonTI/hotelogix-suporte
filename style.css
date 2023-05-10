@@ -1,1 +1,43 @@
-// Estilo criados para uma melhor visão para nossa pagina.
+/*Estilo criados para uma melhor visão para nossa pagina.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Mulish:wght@600&family=Roboto:ital,wght@0,700;1,400;1,500;1,700&display=swap');
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: relative;
+    background-color: aqua;
+}
+.logo-hotel{
+    background-color: rgb(65, 127, 185);
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    background-color: rgb(84, 171, 84);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+}
+
+/*Butões*/
+.buttons{
+    color: black;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 160px;
+    font-weight: 500;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#espacamento{
+    
+}
