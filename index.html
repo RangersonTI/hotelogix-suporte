@@ -16,39 +16,54 @@
         <div class="menu-itens"><a href="#"><button class="buttons">Apresentação</button></div></a>
         <div class="menu-itens"><a href="#"><button class="buttons">Objetivo</button></div></a>
         <div class="menu-itens"><a href="#"><button class="buttons">Sobre</button></div></a>
-        <div class="menu-itens"><a href="https://luizoliveira134.wixsite.com/hotelogix/blank-2" target="_blank"><button class="buttons">Suporte Técnico</button></div></a>
+        <div class="menu-itens">
+          <button onclick="redirecionamento()" class="buttons">Suporte Técnico</button>
+        </div>
       </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </header>
 <body>
-  <div class="apresentacoes">
-    <h1> O QUE É O SISTEMA HOTELOGIX</h1>
-    <div id="texto-apresentacao">
-      <p>
-        O <b>Hotelogix</b> é um software desenvolvido para o gerenciamento de hotéis, onde vem como uma solução 
-        completa, em aprimorar a gestão de uma hospedagem, tornando-a mais compreensiva, eficiente e rentável.
-        Com ele, é possível fazer o controle des hospedagem dos clientes, reservas ,pagamentos e visualização dos registros. 
-        O sistema poderá ser acessado por diferentes tipos de usuários, com níveis de permissão distintos, 
-        permitindo que o gestor tenha maior controle sobre as atividades realizadas pelos funcionários. 
-      </p>
+  <div id="apresentacao-imagens">
+    <div class="apresentacoes">
+      <h1> O QUE É O SISTEMA HOTELOGIX</h1>
+      <div id="texto-apresentacao">
+        <p>
+          O <b>Hotelogix</b> é um software desenvolvido para o gerenciamento de hotéis que oferece uma solução 
+          completa para aprimorar a gestão da hospedagem, tornando-a mais compreensível, eficiente e rentável. 
+          Com ele, é possível controlar a hospedagem dos clientes, realizar reservas, gerenciar pagamentos e 
+          visualizar os registros. O sistema pode ser acessado por diferentes tipos de usuários, com níveis de permissão 
+          distintos, permitindo que o gestor tenha maior controle sobre as atividades realizadas pelos funcionários. 
+        </p>
+      </div>
+      <br>
     </div>
-    <br>
+    <div class="imagens">
+      <div style="padding-left: 11%; padding-right: 1px;">
+        <button onclick="anterior()"><img src="images/seta-esquerda.png" width="30px" height="35px" alt="Anterior"></button>
+      </div style="padding-left: 2%;">
+        <img id="picture" src="images/tela/Login.png" width="75%" alt="">
+      <div style="padding-left: 1px;">
+        <button onclick="proximo()"><img src="images/seta-direita.png" width="30px" height="35px" alt="Proximo"></button>
+      </div>
+    </div>
   </div>
-  <br><br><br>
+  <br><br><br><br><br><br>
+  
   <div class="objetivo">
     <h1> OBJETIVOS</h1>
     <div class="texto-objetivo">
       <p>
-         Auxilio na administração de empresas <br><br>
+         Auxilio na administração de empresas. <br><br>
          Facilitar a organização, o controle e a eficiência no transito de dados.<br><br>
          Aumentar a produtividade e reduzir custos o peracionais.<br><br>
-         Manter uma alta segurança no sistema
+         Manter uma alta segurança do sistema.
       </p>
     </div>
     <br>
   </div>
-  <br><br><br>
+
+  <br><br><br><br><br><br>
   <div class="sobre">
     <h1> SOBRE </h1>
     <div class="texto-sobre">
@@ -58,7 +73,10 @@
     </div>
     <br>
   </div>
+
+  
   <br><br><br><br>
+  <script src="script.js"></script>
 </body>
 <footer>
   <div class="rodape">

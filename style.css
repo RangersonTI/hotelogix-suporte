@@ -4,9 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Lato:wght@400;700&family=Mulish:wght@600&family=Roboto:ital,wght@0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Lato:wght@400;700&family=Mulish:wght@600&family=Ubuntu:wght@500&display=swap');
 .container{
-    display: flex;
     position: absolute;
-    text-align: left;
     flex-direction: column;
     width: 100%;
     right: 0;
@@ -15,8 +13,7 @@
 }
 .logo-hotel{
     background-color: rgb(65, 127, 185);
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .menu{
     background-color: rgb(84, 171, 84);
@@ -28,7 +25,6 @@
 }
 .menu-itens{
     list-style: none;
-    display: inline;
     width: 25%;
 }
 .buttons{
@@ -49,11 +45,26 @@
 body{
     background-color: rgb(210, 228, 249);
 }
+/* Imagens */
+#apresentacao-imagens{
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+}
+.imagens{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    }
+    #picture{
+        box-shadow: 1px 1px 12px #0b4210;
+    }
 /* Apresentacao */
 .apresentacoes{
     background-color: rgb(65, 127, 185);
     border-radius: 8px;
     width: 40%;
+    height: max-content;
     border-style: double;
     border-width: 5px;
     border-color: rgb(35, 77, 99);
@@ -86,6 +97,9 @@ body{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
+    justify-content: right;
+
+
 }
 .texto-objetivo{
     width: 80%;
@@ -126,25 +140,25 @@ footer{
     position: absolute;
     left: 0;
     right: 0;
-}
-.rodape{
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-.image1{
-    width: 25%;
-    text-align: left;
-}
-#copyright{
-    width: 50%;
-    font-size: 25px;
-    font-family: roboto;
-    color: aliceblue;
-    text-shadow: 0px 0px 7px #000000;
-    font-weight: 700;
-}
-.image2{
-    width: 25%;
-    text-align: right;
-}
+    }
+    .rodape{
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .image1{
+        width: 25%;
+        text-align: left;
+    }
+    #copyright{
+        width: 50%;
+        font-size: 25px;
+        font-family: roboto;
+        color: aliceblue;
+        text-shadow: 0px 0px 7px #000000;
+        font-weight: 700;
+    }
+    .image2{
+        width: 25%;
+        text-align: right;
+    }
