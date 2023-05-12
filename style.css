@@ -46,12 +46,12 @@ body{
     background-color: rgb(210, 228, 249);
 }
 /* Imagens */
-#apresentacao-imagens{
+#apresentacao-imagens-apresentacao{
     display: flex;
     padding-left: 2%;
     align-items: center;
 }
-.imagens{
+.imagens-aprensetacao{
     text-align: center;
     align-items: center;
     display: flex;
@@ -59,7 +59,19 @@ body{
     #picture{
         box-shadow: 1px 1px 12px #0b4210;
     }
-/* Apresentacao */
+#objetivo-imagens-objetivo{
+    background-color: #115e18;
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    }
+    .imagens-objetivo{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+/* Textual e bordas */
 .apresentacoes{
     background-color: rgb(65, 127, 185);
     border-radius: 8px;
