@@ -50,15 +50,15 @@ body{
     display: flex;
     padding-left: 2%;
     align-items: center;
-}
-.imagens-aprensetacao{
-    text-align: center;
-    align-items: center;
-    display: flex;
     }
-    #picture{
-        box-shadow: 1px 1px 12px #0b4210;
-    }
+    .imagens-aprensetacao{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        }
+        #picture{
+            box-shadow: 1px 1px 12px #0b4210;
+        }
 #objetivo-imagens-objetivo{
     background-color: #115e18;
     display: flex;
@@ -69,8 +69,19 @@ body{
         display: flex;
         align-items: center;
         text-align: center;
+        padding-left: 50%;
     }
-
+#sobre-imagens-sobre{
+    background-color: #115e18;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    }
+    .imagens-sobre{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 /* Textual e bordas */
 .apresentacoes{
     background-color: rgb(65, 127, 185);
