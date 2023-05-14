@@ -2,6 +2,7 @@ var caminho = "images/tela/";
 var Imagens = ["Login.png","principal.png", "funcionario_teste.png"];
 var NomeImagens = ["Tela de login","Tela principal","Tela de busca de funcionario"];
 var index = 0;
+let currentImageIndex = 0;
 
 function redirecionamento(){
     window.alert("Voce sera redirecionado a uma nova aba para realizar o contanto.");
@@ -30,3 +31,9 @@ function updateImage(){
 }
 
 // Codigo para executar slide auto
+const images = document.querySelectorAll('.imagens-objetivo');
+setInterval(() =>{
+    images[currentImageIndex].classList.remove('active');
+    currentImageIndex = (currentImageIndex+1)%images.length;
+    images[currentImageIndex].classList.add('active');
+}, 1000);

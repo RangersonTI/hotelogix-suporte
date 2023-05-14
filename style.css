@@ -69,7 +69,16 @@ body{
         background-color: #1d115e;
         text-align: center;
         align-items: center;
-        display: flex;
+        display: relative;
+    }
+    .imagens-objetivo img{
+        top: 0;
+        left: 0;
+        opacity: 1;
+        transition: opacity 1s ease-in-out;
+    }
+    .imagens-objetivo.active{
+        opacity: 1;
     }
 #sobre-imagens-sobre{
     background-color: #115e18;
