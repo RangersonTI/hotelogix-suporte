@@ -62,19 +62,20 @@ body{
 #objetivo-imagens-objetivo{
     background-color: #115e18;
     display: flex;
-    padding-left: 2%;
     align-items: center;
     }
     .imagens-objetivo{
-        display: flex;
-        align-items: center;
+        width: 50%;
+        background-color: #1d115e;
         text-align: center;
-        padding-left: 50%;
+        align-items: center;
+        display: flex;
     }
 #sobre-imagens-sobre{
     background-color: #115e18;
     display: flex;
     padding: 2%;
+    text-align: center;
     align-items: center;
     }
     .imagens-sobre{
@@ -120,7 +121,7 @@ body{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
-    justify-content: right;
+    justify-content: center;
 
 
 }
