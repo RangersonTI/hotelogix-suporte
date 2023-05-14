@@ -30,13 +30,3 @@ function updateImage(){
 }
 
 // Codigo para executar slide auto
-$(document).ready(
-    function(){
-        $('._slide').slick({
-            autoplay: true, 
-            //slidesToShow: 1,
-            //slidesToScroll: 1,
-            //autoplaySpeed: 2000,
-            //cssEase: 'Linear'
-    });
-});
