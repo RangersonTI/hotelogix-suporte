@@ -6,7 +6,7 @@ let currentImageIndex = 0;
 
 function redirecionamento(){
     window.alert("Voce sera redirecionado a uma nova aba para realizar o contanto.");
-    window.open("https://luizoliveira134.wixsite.com/hotelogix/blank-2", "_blanck");
+    window.open("https://suportehotelogix.wixsite.com/hotelogix/blank-2", "_blanck");
 }
 
 function anterior(){
