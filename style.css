@@ -87,7 +87,7 @@ body{
     }
     .imagens-objetivo{
         background-color: #0b0f42;
-        right: 0;
+        justify-content: center;
         text-align: center;
         align-items: center;
         display: flex;
@@ -170,7 +170,7 @@ body{
     font-weight: 400;
 }
 
-
+/* Rodapé */
 footer{
     background-color: rgb(65, 127, 185);
     position: absolute;
