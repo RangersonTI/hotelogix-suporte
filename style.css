@@ -101,9 +101,8 @@ body{
         margin: auto;
         size-adjust: 90%;
         width: 90%;
-        height: 400px;
-        background-color: rgb(142, 175, 203);
-        transition: background-image 2s;
+        height: 200px;
+        transition: background-image 3s;
     }
 
 /* Textual e bordas */
