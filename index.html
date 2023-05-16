@@ -16,15 +16,15 @@
       </div>
       <div class="menu">
         <div class="menu-itens"><a href="#"><button class="buttons">Apresentação</button></div></a>
-        <div class="menu-itens"><a href="#"><button class="buttons">Objetivo</button></div></a>
         <div class="menu-itens"><a href="#"><button class="buttons">Sobre</button></div></a>
+        <div class="menu-itens"><a href="#"><button class="buttons">Objetivo</button></div></a>
         <div class="menu-itens"><button onclick="redirecionamento()" class="buttons">Suporte Técnico</button>
         </div>
       </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </header>
-<body>
+<body onload="StartSlider()">
 
   <div id="apresentacao-imagens-apresentacao">
     <div class="ajust_div">
@@ -45,11 +45,11 @@
 
   <div id="sobre-imagens-sobre">
     <div class="imagens-sobre">
-      <div style="padding-left: 3%; padding-right: 1px;">
+      <div class="setas" style="padding-left: 3%; padding-right: 1px;">
         <button onclick="anterior()"><img src="images/seta-esquerda.png" width="30px" height="35px" alt="Anterior"></button>
       </div>
       <img style id="picture" src="images/tela/Login.png" width="80%" alt="">
-      <div style="padding-left: 1px;">
+      <div class="setas" style="padding-left: 1px;">
         <button onclick="proximo()"><img src="images/seta-direita.png" width="30px" height="35px" alt="Proximo"></button>
       </div>
     </div>
@@ -86,7 +86,9 @@
       </div>
     </div>
     <div class="imagens-objetivo">
-        <img src="images/tela/admin.jpeg" alt="Melhor adiministracao" width="60%">
+          <div id="moldura"></div>
+          <input type="button" value="Anterior" onclick="Before()"/>
+          <input type="button" value="Proximo" onclick="Next()"/>
     </div>
   </div>
 

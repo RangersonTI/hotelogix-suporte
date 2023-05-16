@@ -27,6 +27,7 @@
     list-style: none;
     width: 25%;
 }
+
 .buttons{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -80,9 +81,13 @@ body{
             box-shadow: 1px 1px 40px #0b4210;
             align-items: cendter;
         }
+        .setas :hover{
+            background-color: rgb(108, 190, 113);
+        }
 #objetivo-imagens-objetivo{
     background-color: #115e18;
     display: flex;
+    height: 400px;
     align-items: center;
     }
     .imagens-objetivo{
@@ -90,8 +95,15 @@ body{
         justify-content: center;
         text-align: center;
         align-items: center;
-        display: flex;
         width: 50%;
+    }
+    #moldura{
+        margin: auto;
+        size-adjust: 90%;
+        width: 90%;
+        height: 400px;
+        background-color: rgb(142, 175, 203);
+        transition: background-image 2s;
     }
 
 /* Textual e bordas */

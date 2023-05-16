@@ -31,9 +31,42 @@ function updateImage(){
 }
 
 // Codigo para executar slide auto
-const images = document.querySelectorAll('.imagens-objetivo');
-setInterval(() =>{
-    images[currentImageIndex].classList.remove('active');
-    currentImageIndex = (currentImageIndex+1)%images.length;
-    images[currentImageIndex].classList.add('active');
-}, 1000);
+
+function StartSlider(){
+    max=3;
+    min=1;
+    order=min;
+    animation=true;
+    loadImage(caminho+"image1.jpg");
+    document.getElementById("moldura").addEventListener("transitionend",EndAnimation);
+}
+
+function EndAnimation(){
+    animation=true
+}
+
+function loadImage(image){
+    document.getElementById("moldura").style.backgroundImage="URL("+image+")";
+}
+
+function Next(){
+    if(animation){
+        animation=false
+        order++;
+        if(order>max){
+            order=min;
+        }
+    loadImage(caminho+"image"+order+".jpg");
+    }
+}
+
+function Before(){
+    if(animation){
+        animation=false
+        order--;
+        if(order<max){
+          order=max;
+        }
+        loadImage(caminho+"image"+order+".jpg");
+    }
+}
