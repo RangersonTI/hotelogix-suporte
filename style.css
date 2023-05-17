@@ -31,6 +31,9 @@ body{
 }
 /* Imagens */
 #apresentacao-imagens-apresentacao{
+    background-image: linear-gradient(to bottom, #448a5f, #229f52, #0a9678,
+                                         #169969,#23af69,#15875d, #229f52, #448a5f);
+    border-radius: 20px;
     display: flex;
     padding: 2%;
     text-align: center;
@@ -43,6 +46,9 @@ body{
         text-align: center;
     }
 #sobre-imagens-sobre{
+    background-image: linear-gradient(to bottom, #448a5f, #229f52, #0a9678,
+                                         #169969,#23af69,#15875d, #229f52, #448a5f);
+    border-radius: 20px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -58,6 +64,9 @@ body{
             background-color: rgb(108, 190, 113);
         }
 #objetivo-imagens-objetivo{
+    background-image: linear-gradient(to bottom, #448a5f, #229f52, #0a9678,
+                                         #169969,#23af69,#15875d, #229f52, #448a5f);
+    border-radius: 20px;
     display: flex;
     height: 400px;
     align-items: center;
@@ -76,6 +85,9 @@ body{
     }
 
 #suporte-botao-suporte{
+    background-image: linear-gradient(to bottom, #448a5f, #229f52, #0a9678,
+                                         #169969,#23af69,#15875d, #229f52, #448a5f);
+    border-radius: 20px;
     display: flex;
     justify-items: center;
     height: 300px;
@@ -84,7 +96,7 @@ body{
 }
 
 .picture{
-    box-shadow: 1px 1px 60px #0b4210;
+    box-shadow: 1px 1px 100px #18351a;
     align-items: center;
 }
 /* Textual e bordas */
