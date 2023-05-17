@@ -17,30 +17,11 @@
 }
 .menu{
     background-color: rgb(84, 171, 84);
-    height: 55px;
+    height: 40px;
     display: flex;
     padding-left: 20px;
     text-align:center;
     align-items: center;
-}
-.menu-itens{
-    list-style: none;
-    width: 25%;
-}
-
-.buttons{
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: rgb(211, 255, 194);
-    height: 45px;
-    width: 180px;
-    border-style: double;
-    border-width: 5px;
-    box-shadow: 0px 1px 10px #115e18;
-    border-color: rgb(81, 252, 92);
 }
 
 /* Partes do corpo do site (textos) */
@@ -93,6 +74,14 @@ body{
         height: 370px;
         border-radius: 5px;
     }
+
+#suporte-botao-suporte{
+    display: flex;
+    justify-items: center;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+}
 
 .picture{
     box-shadow: 1px 1px 60px #0b4210;
@@ -173,6 +162,51 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.suporte{
+    background-color: rgb(65, 127, 185);
+    border-radius: 8px;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(35, 77, 99);
+    margin: auto;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    justify-content: center;
+    width: 50%;
+}
+.texto-suporte{
+    width: 90%;
+    box-shadow: 2px 2px 9px rgba(22, 49, 22, 4);
+    margin: auto;
+    background-color: rgb(208, 253, 253);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.buttonSuporte{
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    list-style: none;
+}
+
+.buttons{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(211, 255, 194);
+    height: 45px;
+    width: 180px;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 5px;
+    box-shadow: 0px 1px 10px #115e18;
+    border-color: rgb(81, 252, 92);
+}
 
 /* Rodapé */
 footer{
@@ -202,6 +236,7 @@ footer{
         width: 25%;
         text-align: right;
     }
+
 
 .ajust_div{
     width:50%; 
