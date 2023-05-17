@@ -38,7 +38,7 @@ function StartSlider(){
     order=min;
     animation=true;
     loadImage(caminho+"image1.jpg");
-    document.getElementById("moldura").addEventListener("transitionend",EndAnimation());
+    document.getElementById("moldura").addEventListener("transitionend",EndAnimation);
 }
 
 function EndAnimation(){
@@ -47,11 +47,12 @@ function EndAnimation(){
 
 function loadImage(image){
     document.getElementById("moldura").style.backgroundImage="URL("+image+")";
+    
 }
 
 function Next(){
     if(animation){
-        animation=false
+        //animation=false
         order++;
         if(order>max){
             order=min;
@@ -62,7 +63,7 @@ function Next(){
 
 function Before(){
     if(animation){
-        animation=false
+        //animation=false
         order--;
         if(order<max){
           order=max;
