@@ -52,7 +52,7 @@ body{
         display: flex;
         text-align: center;
         align-items: center;
-        width: 55%;
+        width: 50%;
         }
         .setas :hover{
             background-color: rgb(108, 190, 113);
@@ -206,7 +206,10 @@ body{
     border-width: 5px;
     box-shadow: 0px 1px 10px #115e18;
     border-color: rgb(81, 252, 92);
-}
+    }
+    .buttons :hover{
+        background-color: rgb(63, 113, 41);
+    }
 
 /* Rodapé */
 footer{
