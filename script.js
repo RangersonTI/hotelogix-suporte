@@ -5,7 +5,7 @@ var index = 0;
 let currentImageIndex = 0;
 
 function redirecionamento(){
-    window.alert("Voce sera redirecionado a uma nova aba para realizar o contanto.");
+    window.alert("Voce sera redirecionado a uma nova aba para realizar contato.");
     window.open("https://suportehotelogix.wixsite.com/hotelogix/blank-2", "_blanck");
 }
 
@@ -26,8 +26,8 @@ function proximo(){
 }
 
 function updateImage(){
-    document.getElementById("picture").src = (caminho+Imagens[index]);
-    document.getElementById("picture").alt = ""+(NomeImagens[index])
+    document.getElementById("screenload").src = (caminho+Imagens[index]);
+    document.getElementById("screenload").alt = ""+(NomeImagens[index])
 }
 
 // Codigo para executar slide auto
@@ -38,21 +38,26 @@ function StartSlider(){
     order=min;
     animation=true;
     loadImage(caminho+"image1.jpg");
-    document.getElementById("moldura").addEventListener("transitionend",EndAnimation);
+    setInterval(imageReplace, 5000);
 }
 
-function EndAnimation(){
-    animation=true
+function imageReplace(){
+    order++;
+    if(order>max){
+        order=min;
+    }
+    loadImage(caminho+"image"+order+".jpg");
 }
 
 function loadImage(image){
-    document.getElementById("moldura").style.backgroundImage="URL("+image+")";
-    
+    document.getElementById("moldura").src=image;
+    document.getElementById("moldura").alt = "Imagem "+order;
+    //document.getElementById("moldura").addEventListener("transitionend",EndAnimation);
 }
 
-function Next(){
+/*function Next(){
     if(animation){
-        //animation=false
+        animation=false
         order++;
         if(order>max){
             order=min;
@@ -63,11 +68,11 @@ function Next(){
 
 function Before(){
     if(animation){
-        //animation=false
+        animation=false
         order--;
-        if(order<max){
+        if(order<min){
           order=max;
         }
         loadImage(caminho+"image"+order+".jpg");
     }
-}
+}*/
