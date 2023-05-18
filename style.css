@@ -44,8 +44,29 @@ body{
     .integrantes{
         width: 50%;
         display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
+        }
+        .alinhar{
+            width: 100%;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-items:  center;
+        }
+        .nome{
+            font-size: 19px;
+            font-weight: 400;
+            font-family: 'Ubuntu', sans-serif;
+            color: #ffffff;
+        }
+        .ttlnome{
+            font-size: 22px;
+            padding-bottom: 15px;
+            font-weight: 800;
+            font-family: 'Ubuntu', sans-serif;
+            color: #000000;
         }
         .resolucao{
             margin: auto;
@@ -53,10 +74,12 @@ body{
             max-width: 106px;
             min-width: 64px;
             border-radius: 50%;
+            box-shadow: 8px 0px 20px 15px #144817;
         }
 #sobre-imagens-sobre{
-    background-image: linear-gradient(to bottom, #87ead0, #6dcaab, #5fd39b,#61c4a6, #58c0a1, #42bb93,#3abc91,
-    #38bb7a,#36af64,#11a852, #33ad5a,#38a657,#2faf53,#38a657,#33ad5a,#11a852,#36af64,#38bb7a,#3abc91,
+    background-image: linear-gradient(to bottom, #87ead0, #6dcaab, #5fd39b,
+    #61c4a6, #58c0a1, #42bb93,#3abc91,#38bb7a,#36af64,#11a852, #33ad5a,
+    #38a657,#2faf53,#38a657,#33ad5a,#11a852,#36af64,#38bb7a,#3abc91,
     #42bb93, #58c0a1,#61c4a6,#5fd39b,#6dcaab, #87ead0);
     background-attachment: fixed;
     border-radius: 20px;
@@ -213,10 +236,15 @@ body{
 }
 
 .buttonSuporte{
+    padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     text-align: right;
     list-style: none;
+}
+.buttonSuporte :hover{
+    background-color: #49c953;
+    cursor: pointer;
 }
 
 .buttons{
@@ -275,11 +303,3 @@ footer{
     margin: auto;
 }
 
-.alinhar{
-    background-color: #115e18;
-    width: 100%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-items:  center;
-}
