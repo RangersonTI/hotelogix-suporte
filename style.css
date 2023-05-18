@@ -274,3 +274,12 @@ footer{
     justify-content: center;
     margin: auto;
 }
+
+.alinhar{
+    background-color: #115e18;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-items:  center;
+}
