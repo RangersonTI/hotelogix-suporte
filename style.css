@@ -43,6 +43,7 @@ body{
     }
     .integrantes{
         width: 50%;
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,8 +63,8 @@ body{
             color: #ffffff;
         }
         .ttlnome{
-            font-size: 22px;
-            padding-bottom: 15px;
+            font-size: 26px;
+            padding-bottom: 25px;
             font-weight: 800;
             font-family: 'Ubuntu', sans-serif;
             color: #000000;
@@ -151,17 +152,20 @@ body{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
-}
-.texto-apresentacao{
-    width: 90%;
-    box-shadow: 2px 2px 9px rgba(22, 49, 22, 4);
-    margin: auto;
-    text-align: justify;
-    background-color: rgb(208, 253, 253);
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
+    }
+    .texto-apresentacao{
+        width: 90%;
+        box-shadow: 2px 2px 9px rgba(22, 49, 22, 4);
+        margin: auto;
+        text-align: justify;
+        background-color: rgb(208, 253, 253);
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
 /* Sobre */
 .sobre{
@@ -182,7 +186,8 @@ body{
     margin: auto;
     text-align: justify;
     padding: 1px;
-    padding-left: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: rgb(208, 253, 253);
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -206,6 +211,8 @@ body{
     width: 90%;
     box-shadow: 2px 2px 9px rgba(22, 49, 22, 4);
     padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: auto;
     background-color: rgb(208, 253, 253);
     font-family: 'Lato', sans-serif;
@@ -230,6 +237,9 @@ body{
     width: 90%;
     box-shadow: 2px 2px 9px rgba(22, 49, 22, 4);
     margin: auto;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: rgb(208, 253, 253);
     font-family: 'Lato', sans-serif;
     font-weight: 400;
