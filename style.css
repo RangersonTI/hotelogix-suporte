@@ -41,12 +41,19 @@ body{
     text-align: center;
     align-items: center;
     }
-    .imagens-apresentacao{
+    .integrantes{
         width: 50%;
         display: flex;
         align-items: center;
         text-align: center;
-    }
+        }
+        .resolucao{
+            margin: auto;
+            display: inline-table;
+            max-width: 106px;
+            min-width: 64px;
+            border-radius: 50%;
+        }
 #sobre-imagens-sobre{
     background-image: linear-gradient(to bottom, #87ead0, #6dcaab, #5fd39b,#61c4a6, #58c0a1, #42bb93,#3abc91,
     #38bb7a,#36af64,#11a852, #33ad5a,#38a657,#2faf53,#38a657,#33ad5a,#11a852,#36af64,#38bb7a,#3abc91,
